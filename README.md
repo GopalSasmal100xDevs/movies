@@ -1,7 +1,7 @@
 # Questions related movies object!
 
-1. => How many movies have a rating above a certain threshold (e.g., 8.5)?
-2. What is the average rating of all movies in the dataset?
+1. How many movies have a rating above a certain threshold (e.g., 8.5)?
+2. => What is the average rating of all movies in the dataset?
 3. What are the top 5 highest-rated movies?
 4. How many movies fall within specific rating ranges (e.g., 7.0-8.0, 8.0-9.0)?
 5. How many movies were released in each decade (e.g., 1980s, 1990s)?

@@ -1,8 +1,8 @@
 import { movies } from "../data/movies.js";
-import { moviesCountAboveRating } from "./1-movies-count-corsponding-rating.js";
+import { avarageRatingOfAllMovies } from "./2-avarage-rating-all-movies.js";
 
 function main(movies) {
-  const ans = moviesCountAboveRating(movies, 8.5);
+  const ans = avarageRatingOfAllMovies(movies);
   console.log(ans);
 }
 main(movies);
