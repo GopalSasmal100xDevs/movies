@@ -1,8 +1,8 @@
 import { movies } from "../data/movies.js";
-import { top5HighestRatedMovies } from "./3-top-5-highest-rated-movies.js";
+import { moviesWithSpeceficRatingRange } from "./4-movies-specific-rating-range.js";
 
 function main(movies) {
-  const ans = top5HighestRatedMovies(movies);
+  const ans = moviesWithSpeceficRatingRange(movies);
   console.log(ans);
 }
 main(movies);
