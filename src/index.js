@@ -1,8 +1,8 @@
 import { movies } from "../data/movies.js";
-import { moviesWithSpeceficRatingRange } from "./4-movies-specific-rating-range.js";
+import { releasedMoviesEachDecade } from "./5-movies-released-each-decade.js";
 
 function main(movies) {
-  const ans = moviesWithSpeceficRatingRange(movies);
+  const ans = releasedMoviesEachDecade(movies);
   console.log(ans);
 }
 main(movies);
