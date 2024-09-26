@@ -1,8 +1,8 @@
 import { movies } from "../data/movies.js";
-import { getMoviesSpecificRating } from "./6-movies-specific-rating.js";
+import { mostCommonGenreMovies } from "./7-most-common-genre-movies.js";
 
 function main(movies) {
-  const ans = getMoviesSpecificRating(movies);
+  const ans = mostCommonGenreMovies(movies);
   console.log(ans);
 }
 main(movies);
