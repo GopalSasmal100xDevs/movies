@@ -7,6 +7,7 @@ function main(movies) {
 
   console.log("This is for Testing purpose");
   console.log("Checking subbranch in git");
+  console.log("Another testing branch");
 }
 main(movies);
 
